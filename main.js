@@ -13,27 +13,16 @@ const buscarTipo = document.getElementById('buscarTipo')
 } */
 boton.addEventListener("click", () => {
     if (buscarTipo.value == "CFC") {
-        function aleatorio(cfc) {
-            let indiceAleatorio = Math.floor(Math.random() * cfc.length);
-            return cfc[indiceAleatorio]
-        }
-        console.log(aleatorio(cfc));
-        Swal.fire('¡Hola! Sos una Manzana, busca a una ' + aleatorio(cfc) + ' para orar!')
+
+        Swal.fire('¡Hola! Sos un Melón, busca a una Pera o Sandía para orar!')
 
     } else if (buscarTipo.value == "Crisol") {
-        function aleatorio(crisol) {
-            let indiceAleatorio = Math.floor(Math.random() * crisol.length);
-            return crisol[indiceAleatorio]
-        }
-        Swal.fire('¡Hola! Sos una Pera, busca a una ' + aleatorio(crisol) + ' para orar!')
-        console.log(aleatorio(crisol));
+
+        Swal.fire('¡Hola! Sos una Pera, busca a una Sandía o Melón para orar!')
+
 
     } else if (buscarTipo.value == "24 de Septiembre") {
-        function aleatorio(septiembre) {
-            let indiceAleatorio = Math.floor(Math.random() * septiembre.length);
-            return septiembre[indiceAleatorio]
-        }
-        Swal.fire('¡Hola! Sos una Naranja, busca a una ' + aleatorio(septiembre) + ' para orar!')
-        console.log(aleatorio(septiembre));
+        Swal.fire('¡Hola! Sos una Sandía, busca a una Pera o Melón para orar!')
+
     }
 })
