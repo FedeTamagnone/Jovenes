@@ -34,3 +34,18 @@ h3{
     padding: 3px;
     font-family:Arial, Helvetica, sans-serif;
 }
+
+footer{
+    position:absolute;
+    bottom: 0px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    align-items: center;
+    justify-items: center;
+    column-gap: 60px;
+
+}
+
+.imagen{
+    width: 50%;
+}
