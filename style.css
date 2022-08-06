@@ -39,7 +39,7 @@ footer{
     position:absolute;
     bottom: 0px;
     display: grid; 
-    grid-template-columns: 1fr 1fr; 
+    grid-template-columns: 1fr 1fr 1fr; 
     align-items: center;
     justify-items: center;
     column-gap: 60px;
@@ -47,5 +47,5 @@ footer{
 }
 
 .imagen{
-    width: 50%;
+    width: 60%;
 }
